@@ -792,6 +792,10 @@ home__title {
   text-align: center;
 
 }
+.project__button {
+  margin-bottom: var(--mb-1-5);
+  align-items: center;
+}
 
 .project__bg {
   background-color: var(--first-color-second);
