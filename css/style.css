@@ -5,7 +5,7 @@
 :root {
   --header-height: 3rem;
   /* colors */
-  --hue-color: 265;
+  --hue-color: 960;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* hsl color made */
   --first-color: hsl(var(--hue-color), 69%, 61%);
