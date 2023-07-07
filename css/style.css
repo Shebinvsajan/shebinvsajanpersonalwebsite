@@ -5,7 +5,7 @@
 :root {
   --header-height: 3rem;
   /* colors */
-  --hue-color: 960;
+  --hue-color:197;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* hsl color made */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -534,12 +534,17 @@ home__title {
   width: 84%;
 }
 .skills__javascript {
-  width: 60%;
+  width: 70%;
 }
 .skills__bootstrap {
   width: 66%;
 }
-
+.React {
+  width: 75%;
+}
+.Mongo{
+  width: 50;
+}
 .skills__git {
   width: 91%;
 }
@@ -621,6 +626,9 @@ home__title {
   background-color: var(--first-color);
   transform: translate(6px, -7px);
 }
+.experience{
+  margin-top: 3rem;
+}
 
 /*SERVICES*/
 .services {
@@ -632,6 +640,7 @@ home__title {
   grid-template-columns: repeat(2, 1fr);
 
 }
+
 
 .services__content{
   position: relative;
