@@ -3,23 +3,22 @@
 
 /* variables of css */
 :root {
-  --header-height: 3rem;
+   --header-height: 3rem;
   /* colors */
-  --hue-color:197;
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-  /* hsl color made */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --hue-color: 0; /* Hue is irrelevant for grayscale */
+  /* Grayscale colors */
+  --first-color: hsl(0, 0%, 61%);
+  --first-color-second: hsl(0, 0%, 61%);
+  --first-color-alt: hsl(0, 0%, 53%);
+  --first-color-lighter: hsl(0, 0%, 85%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 45%);
+  --text-color-light: hsl(0, 0%, 65%);
+  --input-color: hsl(0, 0%, 96%);
+  --body-color: hsl(0, 0%, 99%);
   --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --scroll-bar-color: hsl(0, 0%, 90%);
+  --scroll-thumb-color: hsl(0, 0%, 80%);
 
 
   /* fonts and typography */
